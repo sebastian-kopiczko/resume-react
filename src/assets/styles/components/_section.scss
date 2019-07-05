@@ -1,0 +1,48 @@
+.section {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 2em;
+  &__item {
+    padding: 1em 0 0 1em;
+    z-index: 1;
+    transition: all 0.3s ease-out 1s;
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      height: 30px;
+      width: 2px;
+      background: $gold;
+      transition: 0.2s ease-in-out 0.22s;
+    }
+  }
+  &__row {
+    padding: 1em 0 0 1em;
+    position: relative;
+    &::before {
+      content: '• ';
+      color: $gold;
+      position: absolute;
+      left: 0;
+    }
+  }
+  &__text {
+    font-size: 1em;
+  }
+  &__title {
+    position: relative;
+    margin: 5px 0;
+    line-height: 1.4em;
+    &:before {
+      content: '';
+      color: $gold;
+      position: absolute;
+      left: -1.7em;
+      top: 0;
+      font-size: 1em;
+    }
+  }
+}

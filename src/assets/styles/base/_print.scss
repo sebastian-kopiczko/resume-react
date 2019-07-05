@@ -1,0 +1,58 @@
+@media print {
+  @page {
+    margin: 20px;
+  }
+  body {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 940px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    padding: 1em 1.5em;
+    // padding: 1em 1.5em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'header header' 'contact contact' 'exp skills' 'edu interests' 'footer footer';
+  }
+  .header {
+    margin-top: 2em;
+    &__heading::before {
+      display: none;
+    }
+  }
+  .lines {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+    justify-content: space-between;
+    &__details {
+      margin: 0;
+    }
+    &__links {
+      margin-right: 1.5em;
+      li {
+        text-align: right;
+      }
+    }
+    &__icons {
+      display: none;
+    }
+  }
+  .section__item:before {
+    // left: 0;
+    height: 40px;
+    top: calc(50% - 20px);
+  }
+  .skills,
+  .interests {
+    margin-left: 2.5em;
+  }
+
+  .footer {
+    margin-top: 5em;
+  }
+}

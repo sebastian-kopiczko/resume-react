@@ -1,0 +1,31 @@
+.text {
+  &--bold {
+    font-weight: 700;
+  }
+  &--semi-bold {
+    font-weight: 600;
+  }
+  &--regular {
+    font-weight: 400;
+  }
+  &--light {
+    font-weight: 300;
+  }
+  &--superlight {
+    font-weight: 200;
+  }
+  &--small {
+    font-size: 0.8rem;
+  }
+  &--subtitle {
+    position: relative;
+    top: -2px;
+    left: 2px;
+  }
+  &--gold {
+    color: $gold;
+  }
+  &--lightgrey {
+    color: $darkgrey;
+  }
+}

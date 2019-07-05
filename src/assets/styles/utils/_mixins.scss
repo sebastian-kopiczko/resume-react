@@ -1,0 +1,33 @@
+@mixin title-shadow($font-size, $top, $left, $spacing) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  font-size: $font-size;
+  color: $white;
+  z-index: -1;
+  letter-spacing: $spacing;
+}
+@mixin icon($name) {
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.8em;
+    height: 1.8em;
+    background: {
+      image: url('./assets/svg/'+$name+'.svg');
+    }
+  }
+}
+@mixin headline-shadow($content, $font-size, $bottom, $left, $opacity) {
+  content: $content;
+  display: block;
+  position: absolute;
+  bottom: $bottom;
+  left: $left;
+  opacity: $opacity;
+  font-weight: 600;
+  font-size: $font-size;
+}
