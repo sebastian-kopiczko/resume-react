@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:200,300,400,500,600&subset=latin-ext");
 
 @import "base/normalize";
-@import "base/core";
-@import "base/print";
-
-@import "utils/helpers";
 @import "utils/variables";
+@import "utils/helpers";
+@import "base/print";
 @import "utils/mixins";
 
+@import "base/core";
 @import "layout/grid";
 @import "layout/header";
 @import "layout/footer";

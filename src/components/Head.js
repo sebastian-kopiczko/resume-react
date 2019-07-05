@@ -5,8 +5,6 @@ import favicon from "../assets/img/favicon.ico";
 const Head = props => {
   return (
     <Helmet>
-      {/* <html lang={data.locale} />    */}
-      <html lang="en" itemscope itemtype="https://schema.org/WebSite" />
       <title itemprop="name">{props.title}</title>
       <meta
         charSet="utf-8"

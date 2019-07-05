@@ -4,18 +4,20 @@ const SectionRowDetailed = props => {
   const { ...item } = props;
   return (
     <div>
-      <div className="text--light text--small">
-        <span>
-          {item.startDate}
-          {" - "}
-          {item.endDate}
-        </span>
-        <span>
-          {" / "}
-          {item.location}
-        </span>
+      <div className="section__item__heading ">
+        <h5 className="text--regular">{item.title}</h5>
+        <div className="text--light text--small">
+          <span>
+            {item.startDate}
+            {" - "}
+            {item.endDate}
+          </span>
+          <span>
+            {" / "}
+            {item.location}
+          </span>
+        </div>
       </div>
-      <h3 className="section__title text--regular">{item.title}</h3>
       <p className="section__text text--light">{item.subtitle}</p>
     </div>
   );

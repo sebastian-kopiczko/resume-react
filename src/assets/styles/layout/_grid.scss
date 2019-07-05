@@ -1,46 +1,90 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+  &__header {
+    margin-bottom: 2em;
+  }
+}
+
+.A4 {
+  // width: 592px;w
+  max-width: calc(592px * 1.5);
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // grid-template-rows: repeat(2, 150px);
+  grid-gap: 1em;
+  grid-template-areas:
+    "header header header header"
+    "exp exp skills skills"
+    "edu edu interests interests"
+    "footer footer footer footer";
+  background: #fff;
+  color: $black;
+  overflow: hidden;
+  position: relative;
+
+  // @media (min-width: 830px) {
+  //   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.08);
+  //   padding: 4.5em 3em 3em 3em;
+  //   grid-template-columns: repeat(2, 1fr);
+  //   grid-template-areas: "header header" "contact contact" "exp skills" "edu interests" "footer footer";
+  // }
+
+  // @media (min-width: 770px) {
+  //   padding: 4em 2.5em 2em 2.5em;
+  // }
+
+  // @media (min-width: 560px) {
+  //   padding: 3em 2em 1em 2em;
+  // }
+}
+
 .header {
   grid-area: header;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
+
+  // -ms-grid-row: 1;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 5;
 }
 
 .contact {
   grid-area: contact;
-  margin-bottom: 1em;
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
-  display: flex;
-  flex-direction: column;
-  // flex-wrap: wrap;
-  align-items: flex-start;
-  @media (min-width: 830px) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
+  // -ms-grid-row: 2;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
 }
 
 .experience {
   grid-area: exp;
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
+  // -ms-grid-row: 4;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
 }
 
 .education {
   grid-area: edu;
-  -ms-grid-row: 6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
+  // -ms-grid-row: 6;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
+}
+
+.icons {
+  grid-area: icons;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .interests {
   grid-area: interests;
-  -ms-grid-row: 7;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
+  // -ms-grid-row: 7;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
   @media (min-width: 830px) {
     margin-left: 2em;
   }
@@ -48,9 +92,9 @@
 
 .skills {
   grid-area: skills;
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
+  // -ms-grid-row: 5;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
   @media (min-width: 830px) {
     margin-left: 2em;
   }
@@ -58,8 +102,8 @@
 
 .footer {
   grid-area: footer;
-  -ms-grid-row: 9;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
+  // -ms-grid-row: 9;
+  // -ms-grid-column: 1;
+  // -ms-grid-column-span: 6;
   margin-top: 1.5em;
 }

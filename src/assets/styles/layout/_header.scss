@@ -1,18 +1,25 @@
-@import '../utils/variables';
+@import "../utils/variables";
 .header {
   color: $darkgrey;
-  &__heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "inner inner contact";
+  margin-bottom: 2em;
+  &__inner {
+    grid-area: inner;
+  }
+  &__title {
     color: $black;
     position: relative;
-    &::before {
-      @include headline-shadow('CV', 10rem, -0.35em, 0.5em, 0.035);
-      @media (min-width: 510px) {
-        @include headline-shadow('CV', 10rem, -0.8em, -0.3em, 0.03);
-      }
-      @media (min-width: 830px) {
-        @include headline-shadow('CV', 13rem, -0.55em, -0.5em, 0.03);
-      }
-    }
+    // &::before {
+    //   @include headline-shadow("CV", 10em, -0.35em, 0.5em, 0.035);
+    //   @media (min-width: 510px) {
+    //     @include headline-shadow("CV", 10em, -0.8em, -0.3em, 0.03);
+    //   }
+    //   @media (min-width: 830px) {
+    //     @include headline-shadow("CV", 13em, -0.55em, -0.5em, 0.03);
+    //   }
+    // }
   }
   &__text {
     padding-top: 1.5em;

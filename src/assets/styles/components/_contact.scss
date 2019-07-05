@@ -1,25 +1,24 @@
-.contact {
-  padding: 1em 0;
-  &__icons {
-    @media (max-width: 350px) {
-      padding-top: 0.5em;
-    }
-    .icon {
-      display: inline-block;
-      width: 2em;
-      height: 2em;
-      img {
-        width: 100%;
-      }
-      &:not(:first-child) {
-        margin-left: 1em;
-      }
-    }
-  }
-}
+@import "../utils/variables";
 
-.details {
-  &__item {
-    padding: 0.5em 0;
+.contact {
+  display: flex;
+  color: $darkgrey;
+  flex-direction: column;
+  grid-area: contact;
+  &__icons {
+    display: flex;
+    margin-top: 1em;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .icon {
+    width: 2em;
+    height: 2em;
+    img {
+      width: 100%;
+    }
+    &:not(:first-child) {
+      margin-left: 1em;
+    }
   }
 }

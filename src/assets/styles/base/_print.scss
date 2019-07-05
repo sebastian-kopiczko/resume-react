@@ -5,18 +5,8 @@
   body {
     font-size: 14px;
   }
-  .container {
-    max-width: 940px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-    padding: 1em 1.5em;
-    // padding: 1em 1.5em;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'header header' 'contact contact' 'exp skills' 'edu interests' 'footer footer';
-  }
+
   .header {
-    margin-top: 2em;
     &__heading::before {
       display: none;
     }
@@ -53,6 +43,7 @@
   }
 
   .footer {
-    margin-top: 5em;
+    position: fixed;
+    bottom: 1em;
   }
 }

@@ -1,11 +1,11 @@
-@import '../utils/variables';
+@import "../utils/variables";
 html {
   height: 100%;
 }
 
 body {
   min-height: 100%;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: "Encode Sans Expanded", sans-serif;
   background: #fff;
   font-size: 14px;
   margin: 0;
@@ -29,26 +29,23 @@ p,
 ul {
   margin: 0;
 }
-
 h1 {
-  font-weight: 400;
-  font-size: 3.125rem;
-  position: relative;
-  margin: 0;
-  z-index: 1;
+  font-size: 3.666em;
 }
-
 h2 {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 2.618em;
 }
-
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.931em;
 }
-
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.618em;
+}
+h5 {
+  font-size: 1.194em;
+}
+h6 {
+  font-size: 1em;
 }
 
 ul {
@@ -57,7 +54,7 @@ ul {
 }
 
 li {
-  font-size: 1.05rem;
+  font-size: 1.05em;
 }
 
 a {
@@ -67,40 +64,10 @@ a {
 }
 
 p {
-  line-height: 1.4;
-  font-size: 1rem;
+  line-height: 1.36;
+  font-size: 1em;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-}
-
-.container {
-  max-width: 960px;
-  padding: 1em;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 1fr;
-  grid-template-areas: 'header' 'contact' 'exp' 'skills' 'edu' 'interests' 'footer';
-  background: #fff;
-  color: $black;
-  overflow: hidden;
-  margin: 1em auto;
-  position: relative;
-  @media (min-height: 700px) {
-    margin: 2em auto;
-    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.08);
-  }
-  @media (min-width: 560px) {
-    padding: 3em 2em 1em 2em;
-  }
-  @media (min-width: 770px) {
-    padding: 4em 2.5em 2em 2.5em;
-  }
-  @media (min-width: 830px) {
-    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.08);
-    padding: 4.5em 3em 3em 3em;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'header header' 'contact contact' 'exp skills' 'edu interests' 'footer footer';
-  }
 }
