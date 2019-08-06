@@ -1,111 +1,160 @@
 {
+  "siteMetadata": {
+    "author": "Sebastian Kopiczko",
+    "lang": "pl"
+  },
   "en": {
-    "experience": [
+    "sections": [
       {
-        "startDate": "02.2019",
-        "endDate": "06.2019",
-        "location": "Gdynia",
-        "title": "Have a Book",
-        "subtitle": "Student's intership - implementation of the React module generating PDF documents in educational platform Multibook.one."
+        "title": "Experience",
+        "name": "experience",
+        "isDetailed": true,
+        "items": [
+          {
+            "startDate": "02.2019",
+            "endDate": "06.2019",
+            "location": "Gdynia",
+            "title": "Have a Book",
+            "subtitle": "Student's intership -  implementation of React module in educational platform Multibook.one, that generates PDF tests with assignments from chosen book."
+          },
+          {
+            "startDate": "07.2017",
+            "endDate": "08.2017",
+            "location": "Gdansk",
+            "title": "Ansta",
+            "subtitle": "Summer intership - learning how to develop and maintain user interfaces in web applications and websites. Worked with HTML and Stylus, basics of JavaScript and Django framework."
+          },
+          {
+            "startDate": "07.2016",
+            "endDate": "08.2016",
+            "location": "Suwalki",
+            "title": "Code&Pepper",
+            "subtitle": "Student's  practics - developing chatbot web application in PHP using Facebook API as a part of bachelor's project."
+          }
+        ]
       },
       {
-        "startDate": "07.2017",
-        "endDate": "08.2017",
-        "location": "Gdansk",
-        "title": "Ansta",
-        "subtitle": "Summer intership - learning how to develop and maintain user interfaces in web applications and websites. Worked with HTML and Stylus, basics of JavaScript and Django framework."
+        "title": "Skills",
+        "name": "skills",
+        "isDetailed": false,
+        "items": [
+          "JavaScript, React, Redux, Gatsby, JSON",
+          "JSX, HTML, SCSS, REST APIs",
+          "Some experience in Wordpress, Django and Spring",
+          "Analytical thinking and problem-solving attitude",
+          "Attention to details",
+          "Basic understanding and usage of Adobe Illustrator, English C1"
+        ]
       },
       {
-        "startDate": "07.2016",
-        "endDate": "08.2016",
-        "location": "Suwalki",
-        "title": "Code&Pepper",
-        "subtitle": "Student's  practics - developing simple chatbot application as a part of bachelor's project."
+        "title": "Education",
+        "name": "education",
+        "isDetailed": true,
+        "items": [
+          {
+            "startDate": "10.2017",
+            "endDate": "07.2019",
+            "location": "Sopot",
+            "subtitle": "IT Applications in Business - master studies",
+            "title": "University of Gdansk"
+          },
+          {
+            "startDate": "10.2014",
+            "endDate": "07.2017",
+            "location": "Sopot",
+            "subtitle": "Business Informatics - bachelor studies",
+            "title": "University of Gdansk"
+          }
+        ]
+      },
+
+      {
+        "title": "Interests",
+        "name": "interests",
+        "isDetailed": false,
+        "items": [
+          "Web development and web design",
+          "Volleyball, sports nutrition",
+          "Cuisine, geography, tech news"
+        ]
       }
-    ],
-    "education": [
-      {
-        "startDate": "10.2017",
-        "endDate": "07.2019",
-        "location": "Sopot",
-        "subtitle": "IT Applications in Business - master studies",
-        "title": "University of Gdansk"
-      },
-      {
-        "startDate": "10.2014",
-        "endDate": "07.2017",
-        "location": "Sopot",
-        "subtitle": "Business Informatics - bachelor studies",
-        "title": "University of Gdansk"
-      }
-    ],
-    "skills": [
-      "JavaScript, JSON, React, Gatsby, basics of Redux",
-      "JSX, HTML, SCSS, using REST API",
-      "Some experience in Wordpress, Django and Spring",
-      "Attention to details / analytical thinking / problem-solving attitude",
-      "Basic understanding and usage of Adobe Illustrator / English C1"
-    ],
-    "interests": [
-      "Web development / web design",
-      "Volleyball / football / cycling",
-      "Cusine / geography",
-      "Movies / tech news"
     ],
     "clause": "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament's and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)"
   },
   "pl": {
-    "experience": [
+    "sections": [
       {
-        "startDate": "02.2019",
-        "endDate": "06.2019",
-        "location": "Gdynia",
-        "title": "Have a Book",
-        "subtitle": "Staż studencki - głównym zadaniem podczas stażu był projekt modułu w React do platformy Multibook.one, który generował dokumenty PDF."
+        "title": "Doświadczenie",
+        "name": "experience",
+        "isDetailed": true,
+        "items": [
+          {
+            "startDate": "02.2019",
+            "endDate": "06.2019",
+            "location": "Gdynia",
+            "title": "Have a Book",
+            "subtitle": "Staż studencki - projekt i wykonanie modułu w React do platformy edukacyjnej Multibook.one, który umożliwia generowanie testów z wybranymi poleceniami w formacie PDF."
+          },
+          {
+            "startDate": "07.2017",
+            "endDate": "08.2017",
+            "location": "Gdańsk",
+            "title": "Ansta",
+            "subtitle": "Staż, podczas którego brałem udział w rozwoju warstwy wizualnej aplikacji webowych oraz zajmowałem się wprowadzaniem zmian na firmowej stronie internetowej."
+          },
+          {
+            "startDate": "07.2016",
+            "endDate": "08.2016",
+            "location": "Suwałki",
+            "title": "Code&Pepper",
+            "subtitle": "Praktyki studenckie, w trakcie których zajmowałem się stworzeniem aplikacji webowej - chatbot w PHP z wykorzystaniem Facebook API. Projekt wykonany na potrzeby  pracy dyplomowej."
+          }
+        ]
       },
       {
-        "startDate": "07.2017",
-        "endDate": "08.2017",
-        "location": "Gdańsk",
-        "title": "Ansta",
-        "subtitle": "Staż - uczestnictwo w projekcie rozwoju interfejsów graficznych aplikacji webowych oraz wprowadzanie zmian na firmowej stronie internetowej - HTML, Stylus, JavaScript, Django framework."
+        "title": "Umiejętności",
+        "name": "skills",
+        "isDetailed": false,
+        "items": [
+          "JavaScript, React, Redux Gatsby, JSON",
+          "JSX, HTML, SCSS, korzystanie z REST API",
+          "Podstawowa znajomość Wordpress, Django i Spring",
+          "Analityczne podejście do rozwiązywania problemów, dbanie o detale i umiejętności organizacji pracy własnej",
+          "Podstawy Adobe Illustrator, język angielski C1"
+        ]
       },
       {
-        "startDate": "07.2016",
-        "endDate": "08.2016",
-        "location": "Suwałki",
-        "title": "Code&Pepper",
-        "subtitle": "Praktyki studenckie, w trakcie których zajmowałem się stworzeniem aplikacji chatbot w PHP opisywanej w pracy dyplomowej."
+        "title": "Wykształcenie",
+        "name": "education",
+        "isDetailed": true,
+        "items": [
+          {
+            "startDate": "10.2017",
+            "endDate": "07.2019",
+            "location": "Sopot",
+            "subtitle": "Aplikacji Informatyczne w Biznesie - studia magisterskie",
+            "title": "Uniwersytet Gdański"
+          },
+          {
+            "startDate": "10.2014",
+            "endDate": "07.2017",
+            "location": "Sopot",
+            "subtitle": "Informatyka Ekonomiczna - studia licencjackie",
+            "title": "Uniwersytet Gdański"
+          }
+        ]
+      },
+
+      {
+        "title": "Zainteresowania",
+        "name": "interests",
+        "isDetailed": false,
+        "items": [
+          "Technologie webowe oraz projektowanie interfejsów użytkownika",
+          "Siatkówka, żywienie w sporcie",
+          "Kulinaria, geografia i nowinki techniczne"
+        ]
       }
-    ],
-    "education": [
-      {
-        "startDate": "10.2017",
-        "endDate": "07.2019",
-        "location": "Sopot",
-        "subtitle": "Aplikacji Informatyczne w Biznesie - studia magisterskie",
-        "title": "Uniwersytet Gdański"
-      },
-      {
-        "startDate": "10.2014",
-        "endDate": "07.2017",
-        "location": "Sopot",
-        "subtitle": "Informatyka Ekonomiczna - studia licencjackie",
-        "title": "Uniwersytet Gdański"
-      }
-    ],
-    "skills": [
-      "JavaScript, JSON, React, Gatsby, podstawy Redux",
-      "JSX, HTML, SCSS, wykorzystanie REST API",
-      "Podstawowa znajomość Wordpress, Django i Spring",
-      "Analityczne podejście do rozwiązywania problemów / dbanie o detale / umiejętność organizacji pracy własnej",
-      "Podstawy Adobe Illustrator / Angielski C1"
-    ],
-    "interests": [
-      "Web design / web development",
-      "Siatkówka / piłka nożna / jazda na rowerze",
-      "Filmy / technologia",
-      "Dobra kuchnia / geografia"
     ],
     "clause": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)"
   }
