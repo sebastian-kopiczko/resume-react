@@ -1,23 +1,23 @@
-import React, { Component, Fragment } from "react";
-import axios from "axios";
-import A4 from "./A4";
-import { Head, Header, Section, Footer } from "../components/";
+import React, { Component, Fragment } from 'react';
+import axios from 'axios';
+import { A4, Head, Header, Section, Footer } from '../components/';
 class Resume extends Component {
   state = { data: {}, isLoaded: false };
   async componentDidMount() {
-    const res = await axios.get("./data/config.json");
+    const res = await axios.get('./data/config.json');
     this.setState({ data: res.data, isLoaded: true });
   }
   render() {
     const currentYear = new Date().getFullYear();
-    setTimeout(() => {
-      console.warn(this.state);
-    }, 1500);
-    const data = this.state.data.pl;
+    // const language = this.state.data.siteMetadata.lang;
+    // console.log(this.state.data.siteMetadata.lang);
+
+    // const data = this.state.data.pl;
+    const data = this.state.data.en;
     return (
       <div className="App">
         <A4>
-          <Head title="CV - Sebastian Kopiczko" />
+          <Head title="Sebastian Kopiczko | Front-end developer CV" />
           {this.state && this.state.isLoaded && (
             <div className="container" id="container">
               {/* <GridLines lines={7} /> */}
@@ -27,36 +27,20 @@ class Resume extends Component {
                 title="Front-end developer"
               />
 
-              {/* TODO: loop for render sections */}
               <Fragment>
-                <Section
-                  number={1}
-                  heading="Experience"
-                  data={data.experience}
-                  isDetailed={true}
-                />
-                <Section
-                  number={2}
-                  heading="Skills"
-                  data={data.skills}
-                  isDetailed={false}
-                />
-                <Section
-                  number={3}
-                  heading="Education"
-                  data={data.education}
-                  isDetailed={true}
-                />
-                <Section
-                  number={4}
-                  heading="Interests"
-                  data={data.interests}
-                  isDetailed={false}
-                />
-
+                {data.sections.map((section, index) => (
+                  <Section
+                    number={index + 1}
+                    key={index * 0.33}
+                    data={section.items}
+                    name={section.name}
+                    heading={section.title}
+                    isDetailed={section.isDetailed}
+                  />
+                ))}
                 <Footer
                   year={currentYear}
-                  author="Sebastian Kopiczko"
+                  author={this.state.data.siteMetadata.author}
                   clause={data.clause}
                 />
               </Fragment>
