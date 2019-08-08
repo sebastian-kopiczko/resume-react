@@ -11,7 +11,7 @@
   }
   &__item {
     padding-left: 1em;
-    margin-bottom: 0.66em;
+    margin-bottom: 1em;
     z-index: 1;
     transition: all 0.3s ease-out 1s;
     position: relative;
@@ -26,14 +26,17 @@
         // margin: 1em 0 0.33em 0;
         margin: 0.4em 0;
       }
+
       &:before {
         content: "";
         display: block;
         position: absolute;
-        left: 0;
-        top: 50%;
-        height: 30px;
-        width: 2px;
+        left: 0.85em;
+        top: 1px;
+        height: 1px;
+        width: 10%;
+        z-index: -1;
+        opacity: 0.5;
         background: $gold;
         transition: 0.2s ease-in-out 0.22s;
       }
