@@ -1,15 +1,10 @@
 import React, { Component } from "react";
-import SectionRowDetailed from "./SectionRowDetailed";
-import SectionRow from "./SectionRow";
 import SectionItem from "./SectionItem";
 
 class Section extends Component {
   render() {
-    const { number, heading, data, isDetailed } = this.props;
-    // const listItemClassName = isDetailed
-    //   ? "section__item section__item--detailed"
-    //   : "section__item";
-    const sectionClassName = `section ${heading.toString().toLowerCase()}`;
+    const { number, name, heading, data, isDetailed } = this.props;
+    const sectionClassName = `section ${name.toString().toLowerCase()}`;
     const sectionId = sectionClassName.split(" ")[1];
     const sectionItems = data;
 

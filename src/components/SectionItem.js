@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 
 const SectionItem = props => {
   const { item, isDetailed } = props;
-  console.log(props);
   return (
     <Fragment>
       {!isDetailed ? (
