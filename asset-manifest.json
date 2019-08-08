@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/resume-react/static/css/main.2760a73a.chunk.css",
+    "main.js": "/resume-react/static/js/main.86cde342.chunk.js",
+    "main.js.map": "/resume-react/static/js/main.86cde342.chunk.js.map",
+    "runtime~main.js": "/resume-react/static/js/runtime~main.5fa25317.js",
+    "runtime~main.js.map": "/resume-react/static/js/runtime~main.5fa25317.js.map",
+    "static/js/2.773b3185.chunk.js": "/resume-react/static/js/2.773b3185.chunk.js",
+    "static/js/2.773b3185.chunk.js.map": "/resume-react/static/js/2.773b3185.chunk.js.map",
+    "index.html": "/resume-react/index.html",
+    "precache-manifest.40c57204ee39d759e7b8555721373bba.js": "/resume-react/precache-manifest.40c57204ee39d759e7b8555721373bba.js",
+    "service-worker.js": "/resume-react/service-worker.js",
+    "static/css/main.2760a73a.chunk.css.map": "/resume-react/static/css/main.2760a73a.chunk.css.map",
+    "static/media/favicon.ico": "/resume-react/static/media/favicon.3bc43f7e.ico",
+    "static/media/gh.svg": "/resume-react/static/media/gh.fa6dcc1d.svg",
+    "static/media/ln.svg": "/resume-react/static/media/ln.29357b34.svg"
+  }
+}
