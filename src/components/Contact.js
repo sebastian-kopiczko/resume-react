@@ -20,12 +20,19 @@ const Contact = props => {
     <section className="contact">
       {props.hasIcons && (
         <div className="contact__icons">
-          {links.map(link => (
-            <Icon name={link.name} href={link.href} src={link.src} />
+          {links.map((link, index) => (
+            <Icon
+              key={index}
+              name={link.name}
+              href={link.href}
+              src={link.src}
+            />
           ))}
         </div>
       )}
-      <p style={{ textAlign: "right" }}>{props.email}</p>
+      <a href={`mailto:${props.email}`} style={{ textAlign: "right" }}>
+        {props.email}
+      </a>
     </section>
   );
 };
