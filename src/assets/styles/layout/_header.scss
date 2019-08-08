@@ -5,6 +5,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "inner inner contact";
   margin-bottom: 2em;
+  @media (max-width: 660px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "inner"
+      "contact";
+  }
   &__inner {
     grid-area: inner;
   }
