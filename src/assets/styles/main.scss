@@ -3,10 +3,10 @@
 @import "base/normalize";
 @import "utils/variables";
 @import "utils/helpers";
-@import "base/print";
 @import "utils/mixins";
 
 @import "base/core";
+@import "base/print";
 @import "layout/grid";
 @import "layout/header";
 @import "layout/footer";
