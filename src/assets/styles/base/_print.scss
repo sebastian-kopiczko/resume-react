@@ -6,44 +6,26 @@
     font-size: 14px;
   }
 
-  .header {
-    &__heading::before {
-      display: none;
-    }
+  section {
+    position: relative;
+    top: -80px;
   }
-  .lines {
-    display: none;
-  }
+
   .contact {
     display: flex;
     flex-direction: row;
     margin: 2em 0;
+    position: relative;
+    top: -8.2em;
     justify-content: space-between;
-    &__details {
-      margin: 0;
+    a {
+      padding-top: 1em;
     }
-    &__links {
-      margin-right: 1.5em;
-      li {
-        text-align: right;
-      }
-    }
-    &__icons {
-      display: none;
-    }
-  }
-  .section__item:before {
-    // left: 0;
-    height: 40px;
-    top: calc(50% - 20px);
-  }
-  .skills,
-  .interests {
-    margin-left: 2.5em;
   }
 
   .footer {
     position: fixed;
     bottom: 1em;
+    padding-right: 1em;
   }
 }
