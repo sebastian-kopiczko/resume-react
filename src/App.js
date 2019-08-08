@@ -3,7 +3,7 @@ import "./assets/styles/main.scss";
 import Resume from "./components/Resume";
 
 function App() {
-  return <Resume />;
+  return <Resume /> ;
 }
 
 export default App;
