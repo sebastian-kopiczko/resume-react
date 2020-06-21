@@ -11,18 +11,25 @@
         "isDetailed": true,
         "items": [
           {
+            "startDate": "08.2020",
+            "endDate": "current",
+            "location": "Gdynia",
+            "title": "WebsiteStyle",
+            "subtitle": "Full time web developer - developing and maintaining complex websites using Wordpress. Communication with client among the project development lifecycle."
+          },
+          {
             "startDate": "02.2019",
             "endDate": "06.2019",
             "location": "Gdynia",
             "title": "Have a Book",
-            "subtitle": "Student's intership -  implementation of React module in educational platform Multibook.one, that generates PDF tests with assignments from chosen book."
+            "subtitle": "Student's intership -  implementation of React module in educational platform Multibook.one, that generates PDF tests with chosen assignments from school e-book."
           },
           {
             "startDate": "07.2017",
             "endDate": "08.2017",
             "location": "Gdansk",
             "title": "Ansta",
-            "subtitle": "Summer intership - learning how to develop and maintain user interfaces in web applications and websites. Worked with HTML and Stylus, basics of JavaScript and Django framework."
+            "subtitle": "Summer internship - developing transport management system user interface. Implement changes on company website"
           },
           {
             "startDate": "07.2016",
@@ -38,12 +45,10 @@
         "name": "skills",
         "isDetailed": false,
         "items": [
-          "JavaScript, React, Redux, Gatsby, JSON",
-          "JSX, HTML, SCSS, REST APIs",
-          "Some experience in Wordpress, Django and Spring",
-          "Analytical thinking and problem-solving attitude",
-          "Attention to details",
-          "Basic understanding and usage of Adobe Illustrator, English C1"
+          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API",
+          "Web accessibility and optimization, requirements management, communication skills",
+          "Self-management, analytical thinking, problem-solving attitude, attention to details",
+          "Worked with Adobe XD and Photoshop, English C1"
         ]
       },
       {
@@ -88,25 +93,32 @@
         "isDetailed": true,
         "items": [
           {
+            "startDate": "08.2020",
+            "endDate": "obecnie",
+            "location": "Gdynia",
+            "title": "WebsiteStyle",
+            "subtitle": "Web devleoper w pełnym wymiarze pracy - rozwój i utrzymanie rozbudowanych stron internetowych z wykorzystaniem systemu Wordpress. Współpraca z klientem na każdym etapie realizacji projektu."
+          },
+          {
             "startDate": "02.2019",
             "endDate": "06.2019",
             "location": "Gdynia",
             "title": "Have a Book",
-            "subtitle": "Staż studencki - projekt i wykonanie modułu w React do platformy edukacyjnej Multibook.one, który umożliwia generowanie testów z wybranymi poleceniami w formacie PDF."
+            "subtitle": "Staż studencki - projekt i wykonanie modułu w React do platformy edukacyjnej Multibook.one, który umożliwia generowanie testów z wybranymi poleceniami z elektronicznej formy podręcznika w formacie PDF."
           },
           {
             "startDate": "07.2017",
             "endDate": "08.2017",
             "location": "Gdańsk",
             "title": "Ansta",
-            "subtitle": "Staż, podczas którego brałem udział w rozwoju warstwy wizualnej aplikacji webowych oraz zajmowałem się wprowadzaniem zmian na firmowej stronie internetowej."
+            "subtitle": "Staż, podczas którego zajmowałem się rozwojem warstwy wizualnej systemu transportowego oraz dokonywanie zmian na stronie internetowej firmy."
           },
           {
             "startDate": "07.2016",
             "endDate": "08.2016",
             "location": "Suwałki",
             "title": "Code&Pepper",
-            "subtitle": "Praktyki studenckie, w trakcie których zajmowałem się stworzeniem aplikacji webowej - chatbot w PHP z wykorzystaniem Facebook API. Projekt wykonany na potrzeby  pracy dyplomowej."
+            "subtitle": "Praktyki studenckie, w trakcie których zajmowałem się stworzeniem aplikacji webowej - chatbot w PHP z wykorzystaniem Facebook API. Projekt wykonany na potrzeby pracy dyplomowej."
           }
         ]
       },
@@ -115,11 +127,10 @@
         "name": "skills",
         "isDetailed": false,
         "items": [
-          "JavaScript, React, Redux, Gatsby, JSON",
-          "JSX, HTML, SCSS, korzystanie z REST API",
-          "Podstawowa znajomość Wordpress, Django i Spring",
-          "Analityczne podejście do rozwiązywania problemów, dbanie o detale i umiejętności organizacji pracy własnej",
-          "Podstawy Adobe Illustrator, język angielski C1"
+          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API",
+          "Umiejętność zapewnienia dostępności i optymalizacji tworzonych rozwiązań, zarządzanie wymaganiami, umiejętności komunikacyjne",
+          "Organizacja pracy własnej, analityczne myślenie, dbanie o detale",
+          "Doświadczenie w korzystniu z Adobe XD i Photoshop, Angielski C1"
         ]
       },
       {
