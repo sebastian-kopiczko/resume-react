@@ -45,7 +45,7 @@
         "name": "skills",
         "isDetailed": false,
         "items": [
-          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API",
+          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API, GIT",
           "Web accessibility and optimization, requirements management, communication skills",
           "Self-management, analytical thinking, problem-solving attitude, attention to details",
           "Worked with Adobe XD and Photoshop, English C1"
@@ -78,8 +78,8 @@
         "isDetailed": false,
         "items": [
           "Web development and web design",
-          "Volleyball, sports nutrition",
-          "Cuisine, geography, tech news"
+          "Volleyball, football, sports nutrition",
+          "Cuisine, geography, music"
         ]
       }
     ],
@@ -127,7 +127,7 @@
         "name": "skills",
         "isDetailed": false,
         "items": [
-          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API",
+          "JavaScript, PHP, Wordpress, HTML, SCSS, WCAG, React, REST API, GIT",
           "Umiejętność zapewnienia dostępności i optymalizacji tworzonych rozwiązań, zarządzanie wymaganiami, umiejętności komunikacyjne",
           "Organizacja pracy własnej, analityczne myślenie, dbanie o detale",
           "Doświadczenie w korzystniu z Adobe XD i Photoshop, Angielski C1"
@@ -160,8 +160,8 @@
         "isDetailed": false,
         "items": [
           "Technologie webowe oraz projektowanie interfejsów użytkownika",
-          "Siatkówka, żywienie w sporcie",
-          "Kulinaria, geografia i nowinki techniczne"
+          "Siatkówka, piłka nożna, żywienie w sporcie",
+          "Kulinaria, geografia i muzyka"
         ]
       }
     ],
